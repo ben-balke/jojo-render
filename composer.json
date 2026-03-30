@@ -1,5 +1,5 @@
 {
-  "name": "balke/jojo-render",
+  "name": "ben-balke/jojo-render",
   "description": "Jojo Render - a lightweight template DSL with provider-based resolution",
   "type": "library",
   "license": "MIT",
