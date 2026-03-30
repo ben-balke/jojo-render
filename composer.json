@@ -1,0 +1,38 @@
+{
+  "name": "balke/jojo-render",
+  "description": "Jojo Render - a lightweight template DSL with provider-based resolution",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ben Balke",
+      "email": "ben.balke@duckdigit.com"
+    }
+  ],
+  "keywords": [
+    "template",
+    "dsl",
+    "render",
+    "crm",
+    "suitecrm",
+    "email"
+  ],
+  "autoload": {
+    "psr-4": {
+      "JojoRender\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "JojoRender\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
